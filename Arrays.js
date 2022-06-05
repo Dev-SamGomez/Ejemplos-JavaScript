@@ -54,3 +54,8 @@ const arrayPrueba = [
 ];
 const encontrar = arrayPrueba.reverse().find((a) => a.Id === 2);
 console.log(encontrar);
+
+//---------------------------------------
+//Crear un array con numeros consecutivos
+const arrayConsecutivo = new Array(10).fill(0).map((acc = 0, num) => num += acc++);
+console.log(arrayConsecutivo);
