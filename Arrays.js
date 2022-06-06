@@ -59,3 +59,9 @@ console.log(encontrar);
 //Crear un array con numeros consecutivos
 const arrayConsecutivo = new Array(10).fill(0).map((acc = 0, num) => num += acc++);
 console.log(arrayConsecutivo);
+
+//---------------
+//Clonar un array
+const arr = [2, 3, 5];
+const clonarr = [...arr];
+console.log(clonarr);
